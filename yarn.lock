@@ -2,7 +2,7 @@
 # Manual changes might be lost - proceed with caution!
 
 __metadata:
-  version: 8
+  version: 10
   cacheKey: 10c0
 
 "@0no-co/graphql.web@npm:^1.0.13, @0no-co/graphql.web@npm:^1.0.8":
@@ -8824,6 +8824,17 @@ __metadata:
   languageName: node
   linkType: hard
 
+"bayelsa-law-registry@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "bayelsa-law-registry@workspace:."
+  dependencies:
+    eslint: "npm:^9.27.0"
+    oxfmt: "npm:^0.35.0"
+    oxlint: "npm:^1.50.0"
+    typescript-eslint: "npm:^8.33.0"
+  languageName: unknown
+  linkType: soft
+
 "better-auth@npm:^1.1.7":
   version: 1.6.13
   resolution: "better-auth@npm:1.6.13"
@@ -12241,28 +12252,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"framer-motion@npm:^12.40.0":
-  version: 12.40.0
-  resolution: "framer-motion@npm:12.40.0"
-  dependencies:
-    motion-dom: "npm:^12.40.0"
-    motion-utils: "npm:^12.39.0"
-    tslib: "npm:^2.4.0"
-  peerDependencies:
-    "@emotion/is-prop-valid": "*"
-    react: ^18.0.0 || ^19.0.0
-    react-dom: ^18.0.0 || ^19.0.0
-  peerDependenciesMeta:
-    "@emotion/is-prop-valid":
-      optional: true
-    react:
-      optional: true
-    react-dom:
-      optional: true
-  checksum: 10c0/a1d26908d6661028fcdba0cf200fca18927a4d4eae0b1e64c37dfb7fdea9da66a8991abd0007079e98687060ba9c83db55620c238bc363106a24ff411d22f533
-  languageName: node
-  linkType: hard
-
 "framer-motion@npm:^6.5.1":
   version: 6.5.1
   resolution: "framer-motion@npm:6.5.1"
@@ -15631,22 +15620,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"motion-dom@npm:^12.40.0":
-  version: 12.40.0
-  resolution: "motion-dom@npm:12.40.0"
-  dependencies:
-    motion-utils: "npm:^12.39.0"
-  checksum: 10c0/79da846a36fd5f6762a0fcfa6e0b7128e4d58f7c07d1467a9f789a9cd0b5adbef9bfbde75760901a13cf2bddd9b31e93e4348a714f570c45ca1e2bfabd22859e
-  languageName: node
-  linkType: hard
-
-"motion-utils@npm:^12.39.0":
-  version: 12.39.0
-  resolution: "motion-utils@npm:12.39.0"
-  checksum: 10c0/6d7a2a2cc0797b72410a666a9cc1c201c8e39bf9669670464e433fe1e72af5f0217154c869867b34fbadf3664cf222c0d022bbc4eed7927f201ae971918e7440
-  languageName: node
-  linkType: hard
-
 "ms@npm:2.0.0":
   version: 2.0.0
   resolution: "ms@npm:2.0.0"
@@ -17098,14 +17071,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-dom@npm:19.1.5":
-  version: 19.1.5
-  resolution: "react-dom@npm:19.1.5"
+"react-dom@npm:19.1.0":
+  version: 19.1.0
+  resolution: "react-dom@npm:19.1.0"
   dependencies:
     scheduler: "npm:^0.26.0"
   peerDependencies:
-    react: ^19.1.5
-  checksum: 10c0/be5f1d6f6d865839c72ee0e45671221e6f6de9f13f0969c796b40c41b09dc580c9259ce3a95f22a20d45a6e10fcfb23cae06c6bd078ee299de5c086a4abf23b5
+    react: ^19.1.0
+  checksum: 10c0/3e26e89bb6c67c9a6aa86cb888c7a7f8258f2e347a6d2a15299c17eb16e04c19194e3452bc3255bd34000a61e45e2cb51e46292392340432f133e5a5d2dfb5fc
   languageName: node
   linkType: hard
 
@@ -17826,10 +17799,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react@npm:19.1.5":
-  version: 19.1.5
-  resolution: "react@npm:19.1.5"
-  checksum: 10c0/0c2351cc449294d20e120857515234c017288d0b15957550ed40ca8eb0aba19edda7682ebd3a1ce4e63eb53f5d2502d02e6be6fefe401574465e1f761bb56deb
+"react@npm:19.1.0":
+  version: 19.1.0
+  resolution: "react@npm:19.1.0"
+  checksum: 10c0/530fb9a62237d54137a13d2cfb67a7db6a2156faed43eecc423f4713d9b20c6f2728b026b45e28fcd72e8eadb9e9ed4b089e99f5e295d2f0ad3134251bdd3698
   languageName: node
   linkType: hard
 
@@ -18271,17 +18244,6 @@ __metadata:
   checksum: 10c0/55d70077c608e4979a4a9aaa83231e29f77f26014930a812cc17142d5aea1b2b81883cd2c43cd2a23fbf8eebc70a9b0683e4c982c385b8830a4b9a0e45f6e59d
   languageName: node
   linkType: hard
-
-"root-workspace-0b6124@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "root-workspace-0b6124@workspace:."
-  dependencies:
-    eslint: "npm:^9.27.0"
-    oxfmt: "npm:^0.35.0"
-    oxlint: "npm:^1.50.0"
-    typescript-eslint: "npm:^8.33.0"
-  languageName: unknown
-  linkType: soft
 
 "rou3@npm:^0.7.12":
   version: 0.7.12
@@ -20182,7 +20144,6 @@ __metadata:
     better-auth: "npm:^1.1.7"
     class-variance-authority: "npm:^0.7.1"
     clsx: "npm:^2.1.1"
-    framer-motion: "npm:^12.40.0"
     jsdom: "npm:^26.1.0"
     lucide-react: "npm:^1.7.0"
     next: "npm:^16.2.6"
